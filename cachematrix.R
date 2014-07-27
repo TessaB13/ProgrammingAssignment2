@@ -18,7 +18,8 @@ makeCacheMatrix <- function(mat=matrix(,r=nrow,c=ncol)){
 
 
 ## The cacheSolve function calls on the matrix created by the makeCacheMatrix, and checks if there
-## it's inverse is saved. If it is, the function returns it, and if not, the function calculated the inverse.
+## it's inverse is saved. If it is, the function returns it, and if not, the function calculates the inverse
+## and saves it with the original matrix. 
 
 cacheSolve <- function(mat=matrix(),...){
         inv <mat$getin()
